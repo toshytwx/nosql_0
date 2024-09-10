@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Client extends Person {
     private final int customerId;
-    private final List<Movie> bookedMovies;  // List of movies booked by the customer
+    private final List<Movie> bookedMovies;
 
     public Client(String name, int age, int customerId) {
         super(name, age);
